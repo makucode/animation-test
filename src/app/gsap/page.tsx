@@ -1,14 +1,14 @@
-import Section from "@/components/Section/Section";
+import SectionGSAP from "@/components/SectionGSAP/SectionGSAP";
 
 import { homeContent, homeText } from "@/assets/texts/home";
 
-import styles from "./page.module.scss";
+import styles from "../page.module.scss";
 
-export default function Home() {
+export default function GSAP() {
     return (
         <main className={styles.main}>
             {homeContent.map((item) => (
-                <Section key={item.color} {...item} />
+                <SectionGSAP key={item.color} {...item} />
             ))}
 
             <section className={styles.Section}>

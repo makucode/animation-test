@@ -1,0 +1,14 @@
+@import "@/styles/variables";
+
+.ProgressBar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    width: 100vw;
+    height: $spacingxs;
+
+    background-color: yellow;
+
+    z-index: $z-nav;
+}

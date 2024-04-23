@@ -1,0 +1,51 @@
+//  Colors
+
+$dark: #000000;
+$light: #ffffff;
+
+//  Font
+
+$t1: 36px;
+$t2: 24px;
+$t3: 18px;
+$t4: 12px;
+
+$bold: 500;
+$normal: 300;
+
+//  Transitions & Animations
+
+$eased: all 0.15s ease;
+$eased-slow: all 0.3s ease;
+
+//  Sizes
+
+$sidebarWidth: 20vw;
+$navbarHeightMob: 80px;
+
+//  Spacings
+
+$spacingl: 64px;
+$spacingm: 32px;
+$spacings: 16px;
+$spacingxs: 8px;
+
+//  Grid
+
+//  Borders
+
+$buttonRadius: 4px;
+
+//  Z-Index
+
+$z-nav: 20;
+$z-content: 5;
+$z-content-behind: 4;
+
+//  Breakpoints
+
+$br-hd: 1920px;
+$br-xl: 1280px;
+$br-l: 1024px;
+$br-m: 768px;
+$br-xs: 360px;

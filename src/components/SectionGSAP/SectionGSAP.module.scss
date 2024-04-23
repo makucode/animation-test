@@ -1,0 +1,30 @@
+@import "@/styles/variables";
+
+.Section {
+    margin-bottom: $spacingm;
+
+    .Wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: $spacings;
+
+        height: calc(100vh - $spacings);
+        max-height: calc(100vh - $spacings);
+
+        padding: $spacingm $spacingl;
+
+        transform-origin: bottom;
+
+        will-change: transform;
+
+        h2,
+        p {
+            color: $light;
+        }
+
+        h2 {
+            font-size: $t1;
+            font-weight: $bold;
+        }
+    }
+}

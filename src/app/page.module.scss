@@ -1,0 +1,11 @@
+@import "@/styles/variables";
+
+.Section {
+    padding: $spacingm $spacingl;
+
+    background-color: $dark;
+
+    p {
+        color: $light;
+    }
+}
