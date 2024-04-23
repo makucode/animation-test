@@ -27,6 +27,23 @@ export default function GSAP() {
                 <p>{homeText}</p>
                 <br />
             </section>
+
+            <section className={styles.Section}>
+                <p>{homeText}</p>
+                <br />
+                <p>{homeText}</p>
+                <br />
+                <p>{homeText}</p>
+                <br />
+                <p>{homeText}</p>
+                <br />
+                <p>{homeText}</p>
+                <br />
+                <p>{homeText}</p>
+                <br />
+                <p>{homeText}</p>
+                <br />
+            </section>
         </main>
     );
 }

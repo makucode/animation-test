@@ -1,6 +1,8 @@
 @import "@/styles/variables";
 
 .Section {
+    margin-bottom: $spacingm;
+
     padding: $spacingm $spacingl;
 
     background-color: $dark;
